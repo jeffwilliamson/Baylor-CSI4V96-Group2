@@ -1,12 +1,11 @@
 package com.example.lerpz1;
 
 import android.os.Bundle;
-import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 
-public class Map extends Activity {
+public class Map extends NoRotateActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
