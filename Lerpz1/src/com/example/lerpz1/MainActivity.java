@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 
-public class MainActivity extends Activity {
+public class MainActivity extends NoRotateActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
