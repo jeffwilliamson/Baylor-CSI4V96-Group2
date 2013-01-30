@@ -5,33 +5,14 @@
     android:background="@drawable/isomap"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/title"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="110dp"
-        android:layout_toRightOf="@+id/button3"
-        android:onClick="launchSettings"
-        android:text="@string/menu_settings" />
-
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/button4"
-        android:layout_marginLeft="47dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginLeft="34dp"
         android:onClick="launchMap"
         android:text="@string/menu_map" />
 
@@ -40,18 +21,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button1"
-        android:layout_alignRight="@+id/button5"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_marginLeft="47dp"
         android:onClick="launchNotes"
         android:text="@string/menu_notes" />
 
-    
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="176dp"
+        android:layout_toRightOf="@+id/button1"
         android:onClick="launchInformation"
         android:text="@string/menu_info" />
 
@@ -59,11 +41,21 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="150dp"
-        android:layout_toRightOf="@+id/button4"
+        android:layout_below="@+id/button4"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="37dp"
+        android:layout_toLeftOf="@+id/button5"
         android:onClick="launchHelp"
         android:text="@string/menu_help" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="25dp"
+        android:onClick="launchSettings"
+        android:text="@string/menu_settings" />
 
 </RelativeLayout>
