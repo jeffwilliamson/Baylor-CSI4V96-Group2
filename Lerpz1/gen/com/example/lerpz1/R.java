@@ -60,35 +60,39 @@ public final class R {
         public static final int location_a=0x7f05000c;
         public static final int location_b=0x7f05000d;
         public static final int location_c=0x7f05000e;
+        public static final int menu_help=0x7f050013;
+        public static final int menu_info=0x7f050011;
+        public static final int menu_map=0x7f050010;
+        public static final int menu_notes=0x7f050012;
         public static final int menu_settings=0x7f050002;
         public static final int notepad_default=0x7f05000a;
-        public static final int pref_default_display_name=0x7f050015;
-        public static final int pref_description_social_recommendations=0x7f050013;
+        public static final int pref_default_display_name=0x7f050019;
+        public static final int pref_description_social_recommendations=0x7f050017;
         /**  Example settings for Data & Sync 
          */
-        public static final int pref_header_data_sync=0x7f050017;
+        public static final int pref_header_data_sync=0x7f05001b;
         /**  Strings related to Settings 
  Example General settings 
          */
-        public static final int pref_header_general=0x7f050011;
+        public static final int pref_header_general=0x7f050015;
         /**  Example settings for Notifications 
          */
-        public static final int pref_header_notifications=0x7f05001a;
-        public static final int pref_ringtone_silent=0x7f05001d;
-        public static final int pref_title_add_friends_to_messages=0x7f050016;
-        public static final int pref_title_display_name=0x7f050014;
-        public static final int pref_title_new_message_notifications=0x7f05001b;
-        public static final int pref_title_ringtone=0x7f05001c;
-        public static final int pref_title_social_recommendations=0x7f050012;
-        public static final int pref_title_sync_frequency=0x7f050018;
-        public static final int pref_title_system_sync_settings=0x7f050019;
-        public static final int pref_title_vibrate=0x7f05001e;
+        public static final int pref_header_notifications=0x7f05001e;
+        public static final int pref_ringtone_silent=0x7f050021;
+        public static final int pref_title_add_friends_to_messages=0x7f05001a;
+        public static final int pref_title_display_name=0x7f050018;
+        public static final int pref_title_new_message_notifications=0x7f05001f;
+        public static final int pref_title_ringtone=0x7f050020;
+        public static final int pref_title_social_recommendations=0x7f050016;
+        public static final int pref_title_sync_frequency=0x7f05001c;
+        public static final int pref_title_system_sync_settings=0x7f05001d;
+        public static final int pref_title_vibrate=0x7f050022;
         public static final int title=0x7f050009;
         public static final int title_activity_help=0x7f050007;
         public static final int title_activity_information_links=0x7f050006;
         public static final int title_activity_map=0x7f050005;
         public static final int title_activity_notes=0x7f050003;
-        public static final int title_activity_settings=0x7f050010;
+        public static final int title_activity_settings=0x7f050014;
         public static final int title_activity_settings_page=0x7f050004;
         public static final int title_activity_text_reader=0x7f050008;
     }

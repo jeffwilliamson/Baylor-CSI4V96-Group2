@@ -22,7 +22,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginRight="182dp"
         android:layout_marginTop="159dp"
-        android:text="Button" />
+        android:text="Player" 
+        android:onClick="launchInfo"/>
 
     <Button
         android:id="@+id/button2"
@@ -33,7 +34,8 @@
         android:layout_below="@+id/button1"
         android:layout_marginRight="24dp"
         android:layout_marginTop="266dp"
-        android:text="Button" />
+        android:text="Health"
+        android:onClick="launchInfo" />
 
     <Button
         android:id="@+id/button3"
@@ -44,6 +46,7 @@
         android:layout_below="@+id/button2"
         android:layout_marginRight="15dp"
         android:layout_marginTop="62dp"
-        android:text="Button" />
+        android:text="Enemy"
+        android:onClick="launchInfo" />
 
 </RelativeLayout>

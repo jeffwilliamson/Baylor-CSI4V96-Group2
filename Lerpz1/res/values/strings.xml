@@ -11,7 +11,7 @@
     <string name="title_activity_help">Help</string>
     <string name="title_activity_text_reader">TextReader</string>
     
-	<string name="title">Welcome</string>
+	<string name="title">Second Screen App</string>
 	
 	<string name="notepad_default">Leaving the App will not store your notes</string>
 	
@@ -25,5 +25,13 @@
 	
 	<string name="info_synopsis">THE STORY OF THIS GAME IS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elit nibh, ultrices eget pretium ut, rhoncus quis mi. Praesent tempus vulputate augue suscipit tristique. Fusce interdum risus mi, ut eleifend turpis. Sed lectus nisl, posuere in feugiat nec, congue ut quam. Mauris in felis</string>
 	
+	<string name="menu_map">Map</string>
 	
+	<string name="menu_info">Info</string>
+	
+	<string name="menu_notes">Notes</string>
+	
+	<string name="menu_help">Help</string>
+	
+		
 </resources>
