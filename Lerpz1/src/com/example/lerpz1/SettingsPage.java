@@ -1,12 +1,11 @@
 package com.example.lerpz1;
 
 import android.os.Bundle;
-import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v4.app.NavUtils;
 
-public class SettingsPage extends Activity {
+public class SettingsPage extends Navigable {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

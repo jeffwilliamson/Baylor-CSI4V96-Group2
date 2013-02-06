@@ -17,5 +17,31 @@
         android:text="@string/notepad_default"
         android:textColor="#FFFFFF"
         android:textSize="24sp" />
+    
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="169dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="718dp"
+        android:onClick="launchHome" 
+        android:background="@android:color/transparent"/>
+
+	<Button
+        android:id="@+id/button5"
+        android:layout_width="169dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="217dp"
+        android:layout_marginTop="718dp"
+        android:onClick="launchSettings" 
+        android:background="@android:color/transparent"/>
+	
+	<Button
+        android:layout_width="169dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="395dp"
+        android:layout_marginTop="718dp"
+        android:onClick="launchHelp" 
+        android:background="@android:color/transparent"/>
 
 </RelativeLayout>

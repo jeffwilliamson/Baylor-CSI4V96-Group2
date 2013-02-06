@@ -1,10 +1,9 @@
 package com.example.lerpz1;
 
 import android.os.Bundle;
-import android.app.Activity;
 import android.view.Menu;
 
-public class InformationLinks extends Activity {
+public class InformationLinks extends Navigable {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

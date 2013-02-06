@@ -1,10 +1,9 @@
 package com.example.lerpz1;
 
 import android.os.Bundle;
-import android.app.Activity;
 import android.view.Menu;
 
-public class Help extends Activity {
+public class Help extends Navigable {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -18,5 +17,7 @@ public class Help extends Activity {
 		getMenuInflater().inflate(R.menu.activity_help, menu);
 		return true;
 	}
+	
+
 
 }

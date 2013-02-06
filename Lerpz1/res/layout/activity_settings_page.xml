@@ -12,5 +12,23 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="Switch" />
+    
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="239dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="317dp"
+        android:layout_marginTop="718dp"
+        android:onClick="launchHelp"
+        android:background="@android:color/transparent" />
+    
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="239dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="718dp"
+        android:onClick="launchHome"
+        android:background="@android:color/transparent" />
 
 </RelativeLayout>
