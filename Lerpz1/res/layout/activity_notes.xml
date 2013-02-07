@@ -3,15 +3,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/journal"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
     tools:context=".Notes" >
 
     <EditText
         android:id="@+id/editText1"
         android:layout_width="469dp"
         android:layout_height="530dp"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="false"
+        android:gravity="top"
         android:layout_marginTop="159dp"
         android:ems="10"
         android:inputType="textMultiLine"
