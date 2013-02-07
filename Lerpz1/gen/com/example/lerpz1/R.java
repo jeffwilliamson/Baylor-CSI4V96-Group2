@@ -20,11 +20,12 @@ public final class R {
         public static final int app_page_design3=0x7f020000;
         public static final int codex_design=0x7f020001;
         public static final int help_design=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int isomap=0x7f020004;
-        public static final int journal=0x7f020005;
-        public static final int map1=0x7f020006;
-        public static final int settings_design=0x7f020007;
+        public static final int home=0x7f020003;
+        public static final int ic_launcher=0x7f020004;
+        public static final int isomap=0x7f020005;
+        public static final int journal=0x7f020006;
+        public static final int map1=0x7f020007;
+        public static final int settings_design=0x7f020008;
     }
     public static final class id {
         public static final int button1=0x7f090004;
