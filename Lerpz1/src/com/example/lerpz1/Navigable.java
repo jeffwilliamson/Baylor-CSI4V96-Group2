@@ -1,10 +1,9 @@
 package com.example.lerpz1;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.view.View;
 
-public abstract class Navigable extends Activity{
+public abstract class Navigable extends NoRotateActivity{
 
 	
 	public void launchHelp(View v) {
