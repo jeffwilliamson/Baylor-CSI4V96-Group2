@@ -4,9 +4,11 @@ import android.util.Log;
 
 import java.net.InetAddress;
 import java.net.Socket;
+import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.OutputStreamWriter;
 
 /*
  * http://myandroidsolutions.blogspot.com/2012/07/android-tcp-connection-tutorial.html
@@ -51,7 +53,26 @@ public class TCPClient {
 				
 				out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(socket.getOutputStream())),true);
 				
+				in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+				
+				while(mRun){
+					serverMessage = in.readLine();
+					if(serverMessage != null && mMessageListener != null){
+						mMessageListener.messageReceived(serverMessage);
+					}
+					serverMessage = null;
+				}
+			}catch(Exception e){
+				Log.e("TCP", "Server: Error",e);
+			} finally{
+				socket.close();
 			}
+		} catch(Exception e){
+			Log.e("TCP","Client: Error",e);
 		}
+	}
+	
+	public interface OnMessageReceived{
+		public void messageReceived(String message);
 	}
 }
