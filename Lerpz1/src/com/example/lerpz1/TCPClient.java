@@ -46,6 +46,7 @@ public class TCPClient {
 			InetAddress serverAddr = InetAddress.getByName(SERVERIP);
 			
 			Log.e("TCP Client","Client: Connecting...");
+			System.out.println("CONNECTION");
 			
 			Socket socket = new Socket(serverAddr, SERVERPORT);
 			

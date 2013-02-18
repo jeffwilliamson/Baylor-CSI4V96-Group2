@@ -34,18 +34,19 @@ public final class R {
         public static final int button4=0x7f090003;
         public static final int button5=0x7f090001;
         public static final int button6=0x7f090002;
-        public static final int editText1=0x7f090008;
-        public static final int editText35=0x7f09000c;
-        public static final int footer=0x7f09000b;
+        public static final int chatbutton=0x7f090007;
+        public static final int editText1=0x7f090009;
+        public static final int editText35=0x7f09000d;
+        public static final int footer=0x7f09000c;
         public static final int help_design=0x7f090000;
-        public static final int imageView1=0x7f090007;
-        public static final int list=0x7f09000a;
-        public static final int list_item=0x7f09000f;
-        public static final int list_item_text_view=0x7f090010;
-        public static final int menu_settings=0x7f090011;
-        public static final int send_button=0x7f09000d;
-        public static final int switch1=0x7f090009;
-        public static final int textView1=0x7f09000e;
+        public static final int imageView1=0x7f090008;
+        public static final int list=0x7f09000b;
+        public static final int list_item=0x7f090010;
+        public static final int list_item_text_view=0x7f090011;
+        public static final int menu_settings=0x7f090012;
+        public static final int send_button=0x7f09000e;
+        public static final int switch1=0x7f09000a;
+        public static final int textView1=0x7f09000f;
     }
     public static final class layout {
         public static final int activity_help=0x7f030000;

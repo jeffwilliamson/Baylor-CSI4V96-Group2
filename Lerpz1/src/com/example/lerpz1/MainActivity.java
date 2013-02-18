@@ -48,6 +48,12 @@ public class MainActivity extends NoRotateActivity {
     	startActivity(intent);
 	}
 	
+	public void launchChat(View v){
+		Intent intent = new Intent(this,TextReader.class);
+		
+		startActivity(intent);
+	}
+	
 	public void launchSettings(View v) {
 		// launch settings activity
 		Intent intent = new Intent(this, SettingsPage.class);
